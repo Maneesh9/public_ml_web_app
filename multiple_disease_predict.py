@@ -5,7 +5,7 @@ Created on Tue Mar 19 23:22:02 2024
 
 import pickle
 import streamlit as st
-import option_menu
+
 
 diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 heart_model = pickle.load(open('heartdisease_model.sav','rb'))
